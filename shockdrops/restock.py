@@ -169,7 +169,7 @@ try:
 
     elif opt == 'check': #Checkear si una lista de productos esta disponible
         skus = sys.argv[2:]
-        print (restock(skus=skus))
+        print (json.dumps(restock(skus=skus)))
 
     elif opt == 'add': #Añadir un sku a la lista
         added = sys.argv[2:]
