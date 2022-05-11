@@ -114,9 +114,13 @@ def get_news():
 
     return json.dumps(shoes)
 
-binary = FirefoxBinary(driver)
-browser = webdriver.Firefox()
-browser.minimize_window()
+try:
+    binary = FirefoxBinary(driver)
+    browser = webdriver.Firefox()
+    browser.minimize_window()
+except Exception as e:
+    print (json_err('Driver error', e))
+    quit()
 
 #Consulta
 if len(sys.argv) == 2:

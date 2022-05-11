@@ -86,10 +86,14 @@ def get_news():
 def json_err(msg, e):
     return json.dumps({'ERROR': msg, 'Exception': str(e)})
 
+try:
+    binary = FirefoxBinary(driver)
+    browser = webdriver.Firefox()
+    browser.minimize_window()
+except Exception as e:
+    print (json_err('Driver error', e))
+    quit()
 
-binary = FirefoxBinary(driver)
-browser = webdriver.Firefox()
-browser.minimize_window()
 
 try:
     print(get_news())

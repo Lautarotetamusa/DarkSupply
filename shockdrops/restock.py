@@ -1,6 +1,7 @@
 import sys
 import json
 import requests
+import time
 import pickle
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -149,12 +150,15 @@ def update(upt, opt="remove"):
     with open('monitored-skus.json', 'w', encoding='utf-8') as f:
         json.dump(skus, f, indent=4, ensure_ascii=False)
 
-binary = FirefoxBinary(driver)
-browser = webdriver.Firefox()
-browser.minimize_window()
+try:
+    binary = FirefoxBinary(driver)
+    browser = webdriver.Firefox()
+    browser.minimize_window()
+except Exception as e:
+    print (json_err('Driver error', e))
+    quit()
 
 #Consulta
-
 try:
     opt = sys.argv[1]
 
@@ -162,9 +166,9 @@ try:
         avaibles = restock()
 
         #Si hay algun disponible lo sacamos de la lista y hacemos un carrito nuevo
-        if len(avaibles) > 0:
+        #if len(avaibles) > 0:
             #print([i["sku"] for i in avaibles])
-            update([i["sku"] for i in avaibles], opt="remove")
+            #update([i["sku"] for i in avaibles], opt="remove")
         print(json.dumps(avaibles))
 
     elif opt == 'check': #Checkear si una lista de productos esta disponible
@@ -190,14 +194,19 @@ try:
     elif opt == 'restart':
         new_cart(['0'])
         update(['0'], opt="restart")
+    elif opt == 'test':
+        start = time.time()
+        avaibles = restock()
+        print(json.dumps(avaibles))
+        print(time.time() - start)
 
 except Exception as e:
     print (json_err('Python scraper error', e))
     browser.quit()
 
-
-browser.quit()
 sys.stdout.flush()
+browser.quit()
+
 
 
 """
