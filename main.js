@@ -99,7 +99,7 @@ function statusEmbed(){
     var stdout = ""
 
     try {
-      stdout = execSync('pgrep -f '+i+'.js').toString();
+      stdout = execSync('pgrep -fx '+i+'.js').toString();
     } catch (e) {
       stdout = e.stdout.toString();
     }
