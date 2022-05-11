@@ -1,0 +1,3 @@
+BOT iniciado
+(node:255236) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
