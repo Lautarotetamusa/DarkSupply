@@ -56,21 +56,22 @@ client.on('message', msg => {
 });
 
 function stop(monitor, msg){
-  child = exec('pgrep -fx "'+monitor+'.js"',
+  child = exec('pgrep -fx "node '+monitor+'.js"',
     function (error, stdout, stderr) {
       console.log(stdout);
       if(stdout){
-          child = exec('pkill -f '+monitor+'.js', function(){
+          child = exec('pkill -fx "node '+monitor+'.js"', function(){
             msg.reply('Monitor apagado');
           });
       }else{
-          msg.reply('El monitor '+monitor+'ya está apagado');
+          msg.reply('El monitor '+monitor+' ya está apagado');
       }
   });
 }
 
 function start(monitor, msg){
-  child = exec('pgrep -fx "'+monitor+'.js"',
+  console.log('pgrep -fx "node '+monitor+'.js"');
+  child = exec('pgrep -fx "node '+monitor+'.js"',
     function (error, stdout, stderr) {
       if(stdout){
           msg.reply('El monitor '+ monitor+' ya está encendido');
@@ -82,7 +83,7 @@ function start(monitor, msg){
 }
 
 function is_running(monitor, msg) {
-    child = exec('pgrep -fx "'+monitor+'.js"',
+    child = exec('pgrep -fx "node '+monitor+'.js"',
       function (error, stdout, stderr) {
         console.log(stdout);
         if(stdout){
@@ -99,7 +100,7 @@ function statusEmbed(){
     var stdout = ""
 
     try {
-      stdout = execSync('pgrep -fx "'+i+'.js"').toString();
+      stdout = execSync('pgrep -fx "node '+i+'.js"').toString();
     } catch (e) {
       stdout = e.stdout.toString();
     }
