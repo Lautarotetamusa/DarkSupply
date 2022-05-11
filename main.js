@@ -41,14 +41,16 @@ client.on('message', msg => {
           break;
       }
     }else{
-      switch (command) {
-        case  "status":
-          //is_running(monitor, msg);
-          var embed = statusEmbed();
-          var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
-          c.send({ embeds: [embed], files: ['./icon.png'] });
-          break;
-      }
+        msg.reply("debes ser adminstrador para usar este comando")
+    }
+
+    switch (command) {
+      case  "status":
+        //is_running(monitor, msg);
+        var embed = statusEmbed();
+        var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
+        c.send({ embeds: [embed], files: ['./icon.png'] });
+        break;
     }
   }
 });
