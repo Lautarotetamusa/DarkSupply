@@ -1,7 +1,15 @@
 #!/bin/bash
 
-Xvfb :10 -ac -screen 0 1024x768x8 &
+#Cargamos la pantalla virtual
+xvfb=$(pgrep Xvfb)
+if [ -z "$xvfb" ]; then
+  Xvfb :10 -ac -screen 0 1024x768x8 &
+  echo "ejecutando Xvfb $!"
+else
+  echo "Xvfb ya esta ejecutandose"
+fi
 export DISPLAY=:10
+
 export PATH=$PATH:$(pwd)
 
 val=$1
