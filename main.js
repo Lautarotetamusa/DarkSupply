@@ -96,10 +96,16 @@ function is_running(monitor, msg) {
 function statusEmbed(){
   var description = "";
   monitores.forEach(i => {
+    var stdout = ""
+
     try {
-      stdout = execSync('pgrep -f '+i+'.js');
-      description += "✅ " + i + "\n";
+      stdout = execSync('pgrep -f '+i+'.js').toString();
     } catch (e) {
+      stdout = e.stdout.toString();
+    }
+    if(stdout != ""){
+      description += "✅ " + i + "\n";
+    }else{
       description += "🔴 " + i + "\n";
     }
   });
