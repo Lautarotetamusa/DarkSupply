@@ -51,6 +51,9 @@ client.on('message', msg => {
         var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
         c.send({ embeds: [embed], files: ['./icon.png'] });
         break;
+      case "log":
+        log(monitor, msg);
+        break;
     }
   }
 });
@@ -92,6 +95,29 @@ function is_running(monitor, msg) {
             msg.reply('El monitor '+monitor+' está apagado');
         }
     });
+}
+
+function log(monitor, msg){
+  var cmd = 'tail logs/'+monitor+'_log.txt'
+
+  console.log(cmd);
+  child = exec(cmd,
+    function (error, stdout, stderr) {
+      if(stdout){
+          var embed = new MessageEmbed()
+        	.setColor('#E800FF')
+        	.setTitle(monitor)
+        	.setDescription(stdout)
+        	.setTimestamp()
+        	.setFooter({ text: 'Provider by darksupply', iconURL: 'attachment://icon.png' });
+
+          var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
+          c.send({ embeds: [embed], files: ['./icon.png'] });
+
+      }else{
+          msg.reply('Comand error')
+      }
+  });
 }
 
 function statusEmbed(){

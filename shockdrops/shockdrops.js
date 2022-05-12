@@ -61,7 +61,11 @@ client.on('message', msg => {
 		}
 
 		command = args[0].toLowerCase().substr(1);
-		commands[command](args, msg, list_skus, client);
+		try {
+			commands[command](args, msg, list_skus, client);
+		} catch (e) {
+			console.log("se ingreso otro comando");
+		}
 	}else
 		msg.reply("Debes ser admistrador para utilizar comandos");
 

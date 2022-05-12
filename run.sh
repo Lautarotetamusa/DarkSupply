@@ -11,11 +11,11 @@ fi
 export DISPLAY=:10
 
 export PATH=$PATH:$(pwd)
+echo $PATH
 
 val=$1
 echo $val
 
 cd $val"/"
-pwd
 nohup node $val".js" > "../logs/"$val"_log.txt" &
 cd "../"
