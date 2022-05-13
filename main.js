@@ -39,6 +39,12 @@ client.on('message', msg => {
         case  "start":
           start(monitor, msg);
           break;
+        case  "config":
+          config();
+          break;
+        case "log":
+          log(monitor, msg);
+          break;
       }
     }else{
         msg.reply("debes ser adminstrador para usar este comando")
@@ -50,9 +56,6 @@ client.on('message', msg => {
         var embed = statusEmbed();
         var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
         c.send({ embeds: [embed], files: ['./icon.png'] });
-        break;
-      case "log":
-        log(monitor, msg);
         break;
     }
   }
@@ -118,6 +121,27 @@ function log(monitor, msg){
           msg.reply('Comand error')
       }
   });
+}
+
+function config(){
+  const fs = require('fs')
+
+  fs.readFile('config.json', 'utf8' , (err, data) => {
+    if (err) {
+      console.error(err)
+      return
+    }
+    console.log(data);
+    var embed = new MessageEmbed()
+    .setColor('#E800FF')
+    .setTitle("monitor configuration")
+    .setDescription(data)
+    .setTimestamp()
+    .setFooter({ text: 'Provider by darksupply', iconURL: 'attachment://icon.png' });
+
+    var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
+    c.send({ embeds: [embed], files: ['./icon.png'] });
+  })
 }
 
 function statusEmbed(){

@@ -114,6 +114,9 @@ def get_news():
 
     return json.dumps(shoes)
 
+def json_err(msg, e):
+    return json.dumps({'ERROR': msg, 'Exception': str(e)})
+
 try:
     binary = FirefoxBinary(driver)
     browser = webdriver.Firefox()

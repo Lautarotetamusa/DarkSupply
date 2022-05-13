@@ -14,6 +14,7 @@ export DISPLAY=:10
 
 #Exportamos el path para que contenga el geckodriver
 export PATH=$PATH:$(pwd)
+echo $PATH
 
 #Reiniciamos el archivo pidfile
 cat "/dev/null" > pidfile.txt
