@@ -1,0 +1,35 @@
+{
+  "test_token": "NO REQUIRED",
+  "token": "INSERT TOKEN"",
+  "serverIDS": [
+  	{
+  		"ID": "800353933218414592",
+  		"name": "probando bots",
+  		"avaible": true,
+  		"channels": {
+  			"nike":  "941416519341047818",
+        "snkrs": "948227168004091984",
+        "skus":  "946441662702428160",
+        "bold":  "944264101671084135"
+      }
+  	},
+  	{
+  		"ID": "907841497079111731",
+  		"name": "Dark Supply",
+  		"avaible": true,
+  		"channels": {
+  			"nike":  "941437186669170698",
+        "snkrs": "916879639404748800",
+        "skus":  "947702737599086644",
+        "skus-consola": "949107763915673661",
+        "bold":  "907847553914138694"
+      }
+  	}
+  ],
+  "delay": {
+    "nike": 30,
+    "snkrs": 30,
+    "skus": 5,
+    "bold": 30
+  }
+}
