@@ -23,7 +23,7 @@ async function main(){
 			time = new Date();
 			console.log("Consulta SKUs nro:", i, "Time: ", time.toLocaleTimeString());
 
-			res = await runScraper(["./restock.py", "restock"]);
+			res = await runScraper(["./scraper.py", "restock"]);
 			newProducts = parseJson(res);
 
 			if (newProducts.length > 0){
@@ -53,16 +53,9 @@ client.on('message', msg => {
 	var isAdmin = (msg.member != null) && (msg.member.permissionsIn(msg.channel).has("ADMINISTRATOR"));
 
 	if(isAdmin){
-		try {
-			const data = fs.readFileSync('monitored-skus.json', 'utf8');
-			list_skus = JSON.parse(data);
-		} catch (e) {
-			list_skus = [];
-		}
-
 		command = args[0].toLowerCase().substr(1);
 		try {
-			commands[command](args, msg, list_skus, client);
+			commands[command](args, msg, client);
 		} catch (e) {
 			console.log("se ingreso otro comando");
 		}
