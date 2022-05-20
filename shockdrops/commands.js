@@ -2,47 +2,33 @@ const {parseJson, runScraper} = require('../functions.js');
 const {token, serverIDS, delay} = require('../config.json');
 const {messageATC} = require('../embeds.js');
 
-async function addsku(args, msg, list_skus, client){
-	console.log("addsku command");
-
-	var agregar = [];
-	for (var i = 1; i < args.length; i++) {
-		if(typeof(args[i]) != "undefined"){
-			if (list_skus.includes(args[i])){
-				msg.reply('El SKU '+ args[i] +' ya se encuentra en la lista de monitoreo');
-			}else{
-				agregar.push(args[i]);
-			}
-		}else{
-			msg.reply("Debes ingresar un SKU valido");
-		}
-	}
-
-	await runScraper(["./restock.py", "add"].concat(agregar));
-	msg.reply("SKUs agregados");
-}
-
-async function removesku(args, msg, list_skus, client){
-	console.log("removesku command");
-
+async function update(args, msg, txt, fun){
 	var eliminar = [];
 	for (var i = 1; i < args.length; i++) {
 		if(typeof(args[i]) != "undefined"){
-			if (list_skus.includes(args[i])){
 				eliminar.push(args[i])
-			}else{
-				msg.reply('El SKU '+ args[i] +' NO se encuentra en la lista de monitoreo');
-			}
 		}else{
 			msg.reply("Debes ingresar un SKU valido");
 		}
 	}
 
-	await runScraper(["./restock.py", "remove"].concat(eliminar));
-	msg.reply('Los SKU fueron retirados de la lista de monitoreo');
+	await runScraper(["./scraper.py", fun].concat(eliminar));
+	msg.reply(txt);
 }
 
-async function checksku(args, msg, list_skus, client){
+function addsku(args, msg){
+	console.log("addsku command");
+
+	update(args, msg, 'SKUs agregados', 'add');
+}
+
+function removesku(args, msg){
+	console.log("removesku command");
+
+	update(args, msg, 'Los SKU fueron retirados de la lista de monitoreo', 'remove');
+}
+
+async function checksku(args, msg, client){
 	console.log("checksku command");
 
 	var consultar = [];
@@ -50,7 +36,7 @@ async function checksku(args, msg, list_skus, client){
 		consultar.push(args[i]);
 	}
 
-	res = await runScraper(["./restock.py", "check"].concat(consultar));
+	res = await runScraper(["./scraper.py", "check"].concat(consultar));
 	product = parseJson(res);
 
 	if(product.length > 0){
@@ -64,14 +50,13 @@ async function checksku(args, msg, list_skus, client){
 	}
 }
 
-function listsku(args, msg, list_skus){
+async function listsku(args, msg){
 	console.log("listsku command");
-	var msgList = "";
-	if(list_skus.length > 0){
-		list_skus.forEach(i => {
-			msgList += i+"\n";
-		});
-		msg.reply(msgList);
+
+	res = await runScraper(["./scraper.py", "list"]);
+
+	if(res.length > 0){
+		msg.reply(res);
 	}else{
 		msg.reply("Actualmente no se esta monitoreando ningun par");
 	}
