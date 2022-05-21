@@ -3,16 +3,16 @@ const {token, serverIDS, delay} = require('../config.json');
 const {messageATC} = require('../embeds.js');
 
 async function update(args, msg, txt, fun){
-	var eliminar = [];
+	var update = [];
 	for (var i = 1; i < args.length; i++) {
 		if(typeof(args[i]) != "undefined"){
-				eliminar.push(args[i])
+				update.push(args[i])
 		}else{
 			msg.reply("Debes ingresar un SKU valido");
 		}
 	}
 
-	await runScraper(["./scraper.py", fun].concat(eliminar));
+	await runScraper(["./scraper.py", fun].concat(update));
 	msg.reply(txt);
 }
 

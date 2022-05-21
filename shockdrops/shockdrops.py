@@ -45,10 +45,15 @@ def add(skus, ofid=''):
         cookie = {'checkout.vtex.com': ofid}
 
     for sku in skus:
-        res = requests.get(addToCart.format(sku, 'false'), cookies=cookie)
+        code = 000
+        while code != 200:
+            res = requests.get(addToCart.format(sku, 'false'), cookies=cookie)
+            code = res.status_code
+            print(code)
 
 # Elimia skus del carro #
-# Crea un nuevo carro con los skus que estaban - los a eliminar #
+# Crea un nuevo carro con ltw
+# los skus que estaban - los a eliminar #
 def remove(to_remove):
     actual = list()    #Buscamos los skus actuales
     skus = [i for i in actual if i not in to_remove]    #Creamos una nueva lista
@@ -68,7 +73,12 @@ def restock(skus=[]):
             ofid = f.read()
 
     ofid = ofid.replace('\n','').split('__ofid=')[1]
-    res  = json.loads(requests.get(cartUrl.format(ofid)).text)
+
+    code = 000
+    while code != 200:
+        r    = requests.get(cartUrl.format(ofid))
+        code = r.status_code
+    res  = json.loads(r.text)
 
     avaiblesSkus = []
     for i in res['items']:
