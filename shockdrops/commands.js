@@ -2,6 +2,8 @@ const {parseJson, runScraper} = require('../functions.js');
 const {token, serverIDS, delay} = require('../config.json');
 const {messageATC} = require('../embeds.js');
 
+// lpm
+
 async function update(args, msg, txt, fun){
 	var update = [];
 	for (var i = 1; i < args.length; i++) {
