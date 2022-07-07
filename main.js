@@ -28,11 +28,18 @@ client.on('message', msg => {
 
 		var isAdmin = (msg.member != null) && (msg.member.permissionsIn(msg.channel).has("ADMINISTRATOR"));
 
-    monitor = args[1];
-    command = args[0].toLowerCase().substr(1);
-
 		if(isAdmin){
+      monitor = args[1];
+      command = args[0].toLowerCase().substr(1);
+
+      console.log(command);
       switch (command) {
+        case  "status":
+          //is_running(monitor, msg);
+          var embed = statusEmbed();
+          var c = client.channels.cache.get(serverIDS[1]["channels"]["skus-consola"]);
+          c.send({ embeds: [embed], files: ['./icon.png'] });
+          break;
         case  "stop":
           stop(monitor, msg);
           break;

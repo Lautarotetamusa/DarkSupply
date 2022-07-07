@@ -53,12 +53,24 @@ client.on('message', msg => {
 	var isAdmin = (msg.member != null) && (msg.member.permissionsIn(msg.channel).has("ADMINISTRATOR"));
 
 	if(isAdmin){
+<<<<<<< HEAD
 		command = args[0].toLowerCase().substr(1);
 		try {
 			commands[command](args, msg, client);
 		} catch (e) {
 			console.log("se ingreso otro comando");
 		}
+=======
+		try {
+			const data = fs.readFileSync('monitored-skus.json', 'utf8');
+			list_skus = JSON.parse(data);
+		} catch (e) {
+			list_skus = [];
+		}
+
+		command = args[0].toLowerCase().substr(1);
+		commands[command](args, msg, list_skus, client);
+>>>>>>> a79d0f4 (Monitores DarkSupply Version 2 para Discord)
 	}else
 		msg.reply("Debes ser admistrador para utilizar comandos");
 
