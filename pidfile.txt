@@ -1,5 +1,2 @@
-main 43719
-nike 43720
-snkrs 44015
-bold 44271
-shockdrops 44374
+main 27784
+nike 27785
