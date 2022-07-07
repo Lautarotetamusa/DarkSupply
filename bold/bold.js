@@ -10,7 +10,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 client.login(token);
 
 client.on('ready', () => {
-	console.log("BOT iniciado");
+	console.log("Bold iniciado");
 	getDiff();
 });
 
@@ -53,7 +53,7 @@ async function getDiff(){
 
 		consulta += 1;
 
-		//await sleep(delay["bold"]);
+		await sleep(delay["bold"]);
 	}
 }
 function sendMessages(embed){

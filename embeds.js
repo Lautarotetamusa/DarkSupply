@@ -53,10 +53,10 @@ function messageATC(product){
 	.setThumbnail(product["img"])
 	.setDescription(description)
 	.addFields(
-		{ name: 'Name',   	value: product["name"].toString() },
-		{ name: 'Price',   	value: product["price"].toString(), inline:true},
+		{ name: 'Nombre',   	value: product["name"].toString() },
+		{ name: 'Precio',   	value: product["price"].toString(), inline:true},
 		{ name: 'Sku',   		value: product["sku"].toString(), 	inline:true },
-		{ name: 'Size',  		value: product["size"].toString(),  inline:true },
+		{ name: 'Talla',  		value: product["size"].toString(),  inline:true },
 	)
 	.setTimestamp()
 	.setFooter({ text: 'Provider by darksupply', iconURL: 'attachment://icon.png' });

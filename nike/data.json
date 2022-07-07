@@ -1,86 +1,79 @@
 [
     {
-        "id": "1521",
-        "name": "Nikecourt Lite 2",
-        "price": 62990,
-        "img": "https://nikeclprod.vteximg.com.br/arquivos/ids/207387-1000-1000/AR8836_177_A_PREM.jpg?v=637691521214800000",
+        "id": "1267",
+        "name": "Nike Sb Zoom Blazer Mid Premium",
+        "price": 109990,
+        "img": "https://nikeclprod.vteximg.com.br/arquivos/ids/206982-1000-1000/DC8903_300_A_PREM.jpg?v=637691512737100000",
         "variants": [
             {
-                "sku": 7677,
-                "stock": 4,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=7677&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  9.5",
+                "sku": 7277,
+                "stock": 1,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=7277&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  8.5",
                 "available": true
             },
             {
-                "sku": 8302,
+                "sku": 7701,
+                "stock": 1,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=7701&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  10.5",
+                "available": true
+            },
+            {
+                "sku": 8073,
+                "stock": 2,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=8073&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  9",
+                "available": true
+            },
+            {
+                "sku": 8630,
+                "stock": 1,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=8630&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  11",
+                "available": true
+            },
+            {
+                "sku": 9284,
                 "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=8302&qty=1&seller=1&redirect=true&sc=1",
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=9284&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  9.5",
+                "available": false
+            },
+            {
+                "sku": 10014,
+                "stock": 1,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=10014&qty=1&seller=1&redirect=true&sc=1",
                 "size": "US  11.5",
+                "available": true
+            },
+            {
+                "sku": 10562,
+                "stock": 0,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=10562&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  7",
                 "available": false
             },
             {
-                "sku": 8511,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=8511&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  12",
-                "available": false
+                "sku": 11059,
+                "stock": 2,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11059&qty=1&seller=1&redirect=true&sc=1",
+                "size": "US  10",
+                "available": true
             },
             {
-                "sku": 9324,
+                "sku": 11174,
                 "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=9324&qty=1&seller=1&redirect=true&sc=1",
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11174&qty=1&seller=1&redirect=true&sc=1",
                 "size": "US  7.5",
                 "available": false
             },
             {
-                "sku": 9900,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=9900&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  10",
-                "available": false
-            },
-            {
-                "sku": 10528,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=10528&qty=1&seller=1&redirect=true&sc=1",
+                "sku": 11377,
+                "stock": 2,
+                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11377&qty=1&seller=1&redirect=true&sc=1",
                 "size": "US  8",
-                "available": false
-            },
-            {
-                "sku": 10919,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=10919&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  10.5",
-                "available": false
-            },
-            {
-                "sku": 11147,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11147&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  8.5",
-                "available": false
-            },
-            {
-                "sku": 11355,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11355&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  9",
-                "available": false
-            },
-            {
-                "sku": 11503,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11503&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  11",
-                "available": false
-            },
-            {
-                "sku": 11672,
-                "stock": 0,
-                "cartUrl": "https://www.nike.cl/checkout/cart/add?sku=11672&qty=1&seller=1&redirect=true&sc=1",
-                "size": "US  12.5",
-                "available": false
+                "available": true
             }
         ]
     }

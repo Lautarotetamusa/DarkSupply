@@ -19,7 +19,7 @@ echo $PATH
 #Reiniciamos el archivo pidfile
 cat "/dev/null" > pidfile.txt
 
-nohup node "main.js" > "logs/main_log.txt" &
+nohup node "main.js" > "logs/main.log" &
 echo "main "$! >> pidfile.txt
 echo "main iniciado con pid $!"
 
@@ -29,7 +29,7 @@ declare -a StringArray=("nike" "snkrs" "bold" "shockdrops")
 for val in ${StringArray[@]}; do
    echo "Iniciando $val"
    cd $val"/"
-   nohup node $val".js" > "../logs/"$val"_log.txt" &
+   nohup node $val".js" > "../logs/"$val".log" &
    cd "../"
    echo "$val "$! >> pidfile.txt
    echo "$val iniciado con pid $!"

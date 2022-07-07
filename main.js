@@ -19,7 +19,7 @@ const monitores = ["snkrs", "nike", "bold", "shockdrops"];
 
 client.login(token);
 client.on('ready', () => {
-	console.log("BOT iniciado");
+	console.log("Main iniciado");
 });
 
 client.on('message', msg => {

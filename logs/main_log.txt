@@ -1,3 +1,28 @@
 BOT iniciado
-(node:255236) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+(node:43719) DeprecationWarning: The message event is deprecated. Use messageCreate instead
 (Use `node --trace-deprecation ...` to show where the warning was created)
+description ✅ snkrs
+✅ nike
+✅ bold
+✅ shockdrops
+
+tail logs/shockdrops_log.txt
+tail logs/shockdropa_log.txt
+tail logs/shockdrops_log.txt
+tail logs/shockdrops_log.txt
+tail logs/shockdrops_log.txt
+tail logs/shockdrops_log.txt
+tail logs/shockdrops_log.txt
+description ✅ snkrs
+✅ nike
+✅ bold
+✅ shockdrops
+
+tail logs/shockdrops_log.txt
+description ✅ snkrs
+✅ nike
+✅ bold
+✅ shockdrops
+
+tail logs/undefined_log.txt
+tail logs/shockdrops_log.txt

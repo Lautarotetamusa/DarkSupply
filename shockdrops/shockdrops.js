@@ -11,7 +11,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 client.login(token);
 
 client.on('ready', () => {
-	console.log("BOT Skus iniciado");
+	console.log("Shockdrops iniciado");
 	main();
 });
 

@@ -1,46 +1,2508 @@
 BOT Skus iniciado
-Consulta SKUs nro: 1 Time:  20:14:25
+Consulta SKUs nro: 1 Time:  00:39:11
 []
 
-BOT Skus iniciado
-Consulta SKUs nro: 1 Time:  20:15:15
+Consulta SKUs nro: 2 Time:  00:39:17
 []
 
-Consulta SKUs nro: 2 Time:  20:15:42
-[]
-
-(node:198843) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+listsku command
+(node:29350) DeprecationWarning: The message event is deprecated. Use messageCreate instead
 (Use `node --trace-deprecation ...` to show where the warning was created)
-Consulta SKUs nro: 3 Time:  20:16:08
+["40733", "40734", "40735", "40736", "40737", "30708", "30709", "30710", "30711", "30712", "30713", "30714", "30715", "30716", "30686", "30687", "30688", "30689", "30690", "30691", "30692", "30694"]
+
+Consulta SKUs nro: 3 Time:  00:39:23
 []
 
-Consulta SKUs nro: 4 Time:  20:16:35
+Consulta SKUs nro: 4 Time:  00:39:29
 []
 
-Consulta SKUs nro: 5 Time:  20:17:03
+Consulta SKUs nro: 5 Time:  00:39:35
 []
 
-Consulta SKUs nro: 6 Time:  20:17:29
+Consulta SKUs nro: 6 Time:  00:39:41
 []
 
-Consulta SKUs nro: 7 Time:  20:17:55
+Consulta SKUs nro: 7 Time:  00:39:47
 []
 
-Consulta SKUs nro: 8 Time:  20:18:22
+Consulta SKUs nro: 8 Time:  00:39:53
 []
 
-Consulta SKUs nro: 9 Time:  20:18:48
+Consulta SKUs nro: 9 Time:  00:39:58
 []
 
-Consulta SKUs nro: 10 Time:  20:19:16
+Consulta SKUs nro: 10 Time:  00:40:04
 []
 
-Consulta SKUs nro: 11 Time:  20:19:42
+Consulta SKUs nro: 11 Time:  00:40:10
 []
 
-Consulta SKUs nro: 12 Time:  20:20:09
+Consulta SKUs nro: 12 Time:  00:40:16
 []
 
-Consulta SKUs nro: 13 Time:  20:20:35
+Consulta SKUs nro: 13 Time:  00:40:22
+[]
+
+Consulta SKUs nro: 14 Time:  00:40:28
+[]
+
+Consulta SKUs nro: 15 Time:  00:40:34
+[]
+
+Consulta SKUs nro: 16 Time:  00:40:41
+[]
+
+Consulta SKUs nro: 17 Time:  00:40:47
+[]
+
+Consulta SKUs nro: 18 Time:  00:40:53
+[]
+
+Consulta SKUs nro: 19 Time:  00:40:59
+[]
+
+Consulta SKUs nro: 20 Time:  00:41:04
+[]
+
+Consulta SKUs nro: 21 Time:  00:41:10
+[]
+
+Consulta SKUs nro: 22 Time:  00:41:16
+[]
+
+Consulta SKUs nro: 23 Time:  00:41:22
+[]
+
+Consulta SKUs nro: 24 Time:  00:41:28
+[]
+
+Consulta SKUs nro: 25 Time:  00:41:34
+[]
+
+Consulta SKUs nro: 26 Time:  00:41:40
+[]
+
+Consulta SKUs nro: 27 Time:  00:41:46
+[]
+
+Consulta SKUs nro: 28 Time:  00:41:52
+[]
+
+Consulta SKUs nro: 29 Time:  00:41:58
+[]
+
+Consulta SKUs nro: 30 Time:  00:42:04
+[]
+
+Consulta SKUs nro: 31 Time:  00:42:11
+[]
+
+Consulta SKUs nro: 32 Time:  00:42:17
+[]
+
+Consulta SKUs nro: 33 Time:  00:42:23
+[]
+
+Consulta SKUs nro: 34 Time:  00:42:29
+[]
+
+Consulta SKUs nro: 35 Time:  00:42:35
+[]
+
+Consulta SKUs nro: 36 Time:  00:42:41
+[]
+
+Consulta SKUs nro: 37 Time:  00:42:46
+[]
+
+Consulta SKUs nro: 38 Time:  00:42:52
+[]
+
+Consulta SKUs nro: 39 Time:  00:42:58
+[]
+
+Consulta SKUs nro: 40 Time:  00:43:04
+[]
+
+Consulta SKUs nro: 41 Time:  00:43:10
+[]
+
+Consulta SKUs nro: 42 Time:  00:43:16
+[]
+
+Consulta SKUs nro: 43 Time:  00:43:22
+[]
+
+Consulta SKUs nro: 44 Time:  00:43:28
+[]
+
+Consulta SKUs nro: 45 Time:  00:43:34
+[]
+
+Consulta SKUs nro: 46 Time:  00:43:40
+[]
+
+Consulta SKUs nro: 47 Time:  00:43:46
+[]
+
+Consulta SKUs nro: 48 Time:  00:43:52
+[]
+
+Consulta SKUs nro: 49 Time:  00:43:58
+[]
+
+Consulta SKUs nro: 50 Time:  00:44:04
+[]
+
+Consulta SKUs nro: 51 Time:  00:44:10
+[]
+
+Consulta SKUs nro: 52 Time:  00:44:16
+[]
+
+Consulta SKUs nro: 53 Time:  00:44:22
+[]
+
+Consulta SKUs nro: 54 Time:  00:44:27
+[]
+
+Consulta SKUs nro: 55 Time:  00:44:33
+[]
+
+Consulta SKUs nro: 56 Time:  00:44:39
+[]
+
+Consulta SKUs nro: 57 Time:  00:44:45
+[]
+
+Consulta SKUs nro: 58 Time:  00:44:51
+[]
+
+Consulta SKUs nro: 59 Time:  00:44:57
+[]
+
+Consulta SKUs nro: 60 Time:  00:45:03
+[]
+
+Consulta SKUs nro: 61 Time:  00:45:09
+[]
+
+Consulta SKUs nro: 62 Time:  00:45:15
+[]
+
+Consulta SKUs nro: 63 Time:  00:45:21
+[]
+
+Consulta SKUs nro: 64 Time:  00:45:27
+[]
+
+Consulta SKUs nro: 65 Time:  00:45:33
+[]
+
+Consulta SKUs nro: 66 Time:  00:45:39
+[]
+
+Consulta SKUs nro: 67 Time:  00:45:45
+[]
+
+Consulta SKUs nro: 68 Time:  00:45:51
+[]
+
+Consulta SKUs nro: 69 Time:  00:45:57
+[]
+
+Consulta SKUs nro: 70 Time:  00:46:03
+[]
+
+Consulta SKUs nro: 71 Time:  00:46:09
+[]
+
+Consulta SKUs nro: 72 Time:  00:46:15
+[]
+
+Consulta SKUs nro: 73 Time:  00:46:21
+[]
+
+Consulta SKUs nro: 74 Time:  00:46:27
+[]
+
+Consulta SKUs nro: 75 Time:  00:46:33
+[]
+
+Consulta SKUs nro: 76 Time:  00:46:39
+[]
+
+Consulta SKUs nro: 77 Time:  00:46:44
+[]
+
+Consulta SKUs nro: 78 Time:  00:46:50
+[]
+
+Consulta SKUs nro: 79 Time:  00:46:56
+[]
+
+Consulta SKUs nro: 80 Time:  00:47:02
+[]
+
+Consulta SKUs nro: 81 Time:  00:47:08
+[]
+
+Consulta SKUs nro: 82 Time:  00:47:14
+[]
+
+Consulta SKUs nro: 83 Time:  00:47:20
+[]
+
+Consulta SKUs nro: 84 Time:  00:47:26
+[]
+
+Consulta SKUs nro: 85 Time:  00:47:32
+[]
+
+Consulta SKUs nro: 86 Time:  00:47:38
+[]
+
+Consulta SKUs nro: 87 Time:  00:47:44
+[]
+
+Consulta SKUs nro: 88 Time:  00:47:50
+[]
+
+Consulta SKUs nro: 89 Time:  00:47:56
+[]
+
+Consulta SKUs nro: 90 Time:  00:48:01
+[]
+
+Consulta SKUs nro: 91 Time:  00:48:07
+[]
+
+Consulta SKUs nro: 92 Time:  00:48:13
+[]
+
+Consulta SKUs nro: 93 Time:  00:48:19
+[]
+
+Consulta SKUs nro: 94 Time:  00:48:25
+[]
+
+Consulta SKUs nro: 95 Time:  00:48:31
+[]
+
+Consulta SKUs nro: 96 Time:  00:48:37
+[]
+
+Consulta SKUs nro: 97 Time:  00:48:43
+[]
+
+Consulta SKUs nro: 98 Time:  00:48:49
+[]
+
+Consulta SKUs nro: 99 Time:  00:48:55
+[]
+
+Consulta SKUs nro: 100 Time:  00:49:01
+[]
+
+Consulta SKUs nro: 101 Time:  00:49:07
+[]
+
+Consulta SKUs nro: 102 Time:  00:49:13
+[]
+
+Consulta SKUs nro: 103 Time:  00:49:19
+[]
+
+Consulta SKUs nro: 104 Time:  00:49:25
+[]
+
+Consulta SKUs nro: 105 Time:  00:49:31
+[]
+
+Consulta SKUs nro: 106 Time:  00:49:37
+[]
+
+Consulta SKUs nro: 107 Time:  00:49:43
+[]
+
+Consulta SKUs nro: 108 Time:  00:49:49
+[]
+
+Consulta SKUs nro: 109 Time:  00:49:55
+[]
+
+Consulta SKUs nro: 110 Time:  00:50:01
+[]
+
+Consulta SKUs nro: 111 Time:  00:50:07
+[]
+
+Consulta SKUs nro: 112 Time:  00:50:13
+[]
+
+Consulta SKUs nro: 113 Time:  00:50:19
+[]
+
+Consulta SKUs nro: 114 Time:  00:50:25
+[]
+
+Consulta SKUs nro: 115 Time:  00:50:31
+[]
+
+Consulta SKUs nro: 116 Time:  00:50:37
+[]
+
+Consulta SKUs nro: 117 Time:  00:50:42
+[]
+
+Consulta SKUs nro: 118 Time:  00:50:48
+[]
+
+Consulta SKUs nro: 119 Time:  00:50:54
+[]
+
+Consulta SKUs nro: 120 Time:  00:51:00
+[]
+
+Consulta SKUs nro: 121 Time:  00:51:06
+[]
+
+Consulta SKUs nro: 122 Time:  00:51:12
+[]
+
+Consulta SKUs nro: 123 Time:  00:51:18
+[]
+
+Consulta SKUs nro: 124 Time:  00:51:24
+[]
+
+Consulta SKUs nro: 125 Time:  00:51:30
+[]
+
+Consulta SKUs nro: 126 Time:  00:51:36
+[]
+
+Consulta SKUs nro: 127 Time:  00:51:42
+[]
+
+Consulta SKUs nro: 128 Time:  00:51:47
+[]
+
+Consulta SKUs nro: 129 Time:  00:51:53
+[]
+
+Consulta SKUs nro: 130 Time:  00:51:59
+[]
+
+Consulta SKUs nro: 131 Time:  00:52:05
+[]
+
+Consulta SKUs nro: 132 Time:  00:52:11
+[]
+
+Consulta SKUs nro: 133 Time:  00:52:17
+[]
+
+Consulta SKUs nro: 134 Time:  00:52:23
+[]
+
+Consulta SKUs nro: 135 Time:  00:52:29
+[]
+
+Consulta SKUs nro: 136 Time:  00:52:35
+[]
+
+Consulta SKUs nro: 137 Time:  00:52:41
+[]
+
+Consulta SKUs nro: 138 Time:  00:52:47
+[]
+
+Consulta SKUs nro: 139 Time:  00:52:53
+[]
+
+Consulta SKUs nro: 140 Time:  00:52:59
+[]
+
+Consulta SKUs nro: 141 Time:  00:53:05
+[]
+
+Consulta SKUs nro: 142 Time:  00:53:11
+[]
+
+Consulta SKUs nro: 143 Time:  00:53:17
+[]
+
+Consulta SKUs nro: 144 Time:  00:53:23
+[]
+
+Consulta SKUs nro: 145 Time:  00:53:28
+[]
+
+Consulta SKUs nro: 146 Time:  00:53:34
+[]
+
+Consulta SKUs nro: 147 Time:  00:53:40
+[]
+
+Consulta SKUs nro: 148 Time:  00:53:46
+[]
+
+Consulta SKUs nro: 149 Time:  00:53:52
+[]
+
+Consulta SKUs nro: 150 Time:  00:53:58
+[]
+
+Consulta SKUs nro: 151 Time:  00:54:04
+[]
+
+Consulta SKUs nro: 152 Time:  00:54:10
+[]
+
+Consulta SKUs nro: 153 Time:  00:54:16
+[]
+
+Consulta SKUs nro: 154 Time:  00:54:22
+[]
+
+Consulta SKUs nro: 155 Time:  00:54:28
+[]
+
+Consulta SKUs nro: 156 Time:  00:54:34
+[]
+
+Consulta SKUs nro: 157 Time:  00:54:40
+[]
+
+Consulta SKUs nro: 158 Time:  00:54:46
+[]
+
+Consulta SKUs nro: 159 Time:  00:54:52
+[]
+
+Consulta SKUs nro: 160 Time:  00:54:58
+[]
+
+Consulta SKUs nro: 161 Time:  00:55:04
+[]
+
+Consulta SKUs nro: 162 Time:  00:55:10
+[]
+
+Consulta SKUs nro: 163 Time:  00:55:16
+[]
+
+Consulta SKUs nro: 164 Time:  00:55:22
+[]
+
+Consulta SKUs nro: 165 Time:  00:55:27
+[]
+
+Consulta SKUs nro: 166 Time:  00:55:33
+[]
+
+Consulta SKUs nro: 167 Time:  00:55:39
+[]
+
+Consulta SKUs nro: 168 Time:  00:55:45
+[]
+
+Consulta SKUs nro: 169 Time:  00:55:51
+[]
+
+Consulta SKUs nro: 170 Time:  00:55:57
+[]
+
+Consulta SKUs nro: 171 Time:  00:56:03
+[]
+
+Consulta SKUs nro: 172 Time:  00:56:09
+[]
+
+Consulta SKUs nro: 173 Time:  00:56:15
+[]
+
+Consulta SKUs nro: 174 Time:  00:56:21
+[]
+
+Consulta SKUs nro: 175 Time:  00:56:27
+[]
+
+Consulta SKUs nro: 176 Time:  00:56:33
+[]
+
+Consulta SKUs nro: 177 Time:  00:56:39
+[]
+
+Consulta SKUs nro: 178 Time:  00:56:44
+[]
+
+Consulta SKUs nro: 179 Time:  00:56:50
+[]
+
+Consulta SKUs nro: 180 Time:  00:56:56
+[]
+
+Consulta SKUs nro: 181 Time:  00:57:02
+[]
+
+Consulta SKUs nro: 182 Time:  00:57:08
+[]
+
+Consulta SKUs nro: 183 Time:  00:57:14
+[]
+
+Consulta SKUs nro: 184 Time:  00:57:20
+[]
+
+Consulta SKUs nro: 185 Time:  00:57:26
+[]
+
+Consulta SKUs nro: 186 Time:  00:57:32
+[]
+
+Consulta SKUs nro: 187 Time:  00:57:38
+[]
+
+Consulta SKUs nro: 188 Time:  00:57:43
+[]
+
+Consulta SKUs nro: 189 Time:  00:57:49
+[]
+
+Consulta SKUs nro: 190 Time:  00:57:55
+[]
+
+Consulta SKUs nro: 191 Time:  00:58:01
+[]
+
+Consulta SKUs nro: 192 Time:  00:58:07
+[]
+
+Consulta SKUs nro: 193 Time:  00:58:13
+[]
+
+Consulta SKUs nro: 194 Time:  00:58:19
+[]
+
+Consulta SKUs nro: 195 Time:  00:58:25
+[]
+
+Consulta SKUs nro: 196 Time:  00:58:31
+[]
+
+Consulta SKUs nro: 197 Time:  00:58:37
+[]
+
+Consulta SKUs nro: 198 Time:  00:58:43
+[]
+
+Consulta SKUs nro: 199 Time:  00:58:49
+[]
+
+Consulta SKUs nro: 200 Time:  00:58:55
+[]
+
+Consulta SKUs nro: 201 Time:  00:59:01
+[]
+
+Consulta SKUs nro: 202 Time:  00:59:07
+[]
+
+Consulta SKUs nro: 203 Time:  00:59:13
+[]
+
+Consulta SKUs nro: 204 Time:  00:59:19
+[]
+
+Consulta SKUs nro: 205 Time:  00:59:25
+[]
+
+Consulta SKUs nro: 206 Time:  00:59:31
+[]
+
+Consulta SKUs nro: 207 Time:  00:59:37
+[]
+
+Consulta SKUs nro: 208 Time:  00:59:43
+[]
+
+Consulta SKUs nro: 209 Time:  00:59:49
+[]
+
+Consulta SKUs nro: 210 Time:  00:59:55
+[]
+
+Consulta SKUs nro: 211 Time:  01:00:01
+[]
+
+Consulta SKUs nro: 212 Time:  01:00:07
+[]
+
+Consulta SKUs nro: 213 Time:  01:00:13
+[]
+
+Consulta SKUs nro: 214 Time:  01:00:19
+[]
+
+Consulta SKUs nro: 215 Time:  01:00:25
+[]
+
+Consulta SKUs nro: 216 Time:  01:00:31
+[]
+
+Consulta SKUs nro: 217 Time:  01:00:37
+[]
+
+Consulta SKUs nro: 218 Time:  01:00:43
+[]
+
+Consulta SKUs nro: 219 Time:  01:00:49
+[]
+
+Consulta SKUs nro: 220 Time:  01:00:55
+[]
+
+Consulta SKUs nro: 221 Time:  01:01:01
+[]
+
+Consulta SKUs nro: 222 Time:  01:01:07
+[]
+
+Consulta SKUs nro: 223 Time:  01:01:13
+[]
+
+Consulta SKUs nro: 224 Time:  01:01:19
+[]
+
+Consulta SKUs nro: 225 Time:  01:01:25
+[]
+
+Consulta SKUs nro: 226 Time:  01:01:31
+[]
+
+Consulta SKUs nro: 227 Time:  01:01:37
+[]
+
+Consulta SKUs nro: 228 Time:  01:01:43
+[]
+
+Consulta SKUs nro: 229 Time:  01:01:48
+[]
+
+Consulta SKUs nro: 230 Time:  01:01:54
+[]
+
+Consulta SKUs nro: 231 Time:  01:02:00
+[]
+
+Consulta SKUs nro: 232 Time:  01:02:06
+[]
+
+Consulta SKUs nro: 233 Time:  01:02:12
+[]
+
+Consulta SKUs nro: 234 Time:  01:02:18
+[]
+
+Consulta SKUs nro: 235 Time:  01:02:24
+[]
+
+Consulta SKUs nro: 236 Time:  01:02:30
+[]
+
+Consulta SKUs nro: 237 Time:  01:02:36
+[]
+
+Consulta SKUs nro: 238 Time:  01:02:42
+[]
+
+Consulta SKUs nro: 239 Time:  01:02:48
+[]
+
+Consulta SKUs nro: 240 Time:  01:02:54
+[]
+
+Consulta SKUs nro: 241 Time:  01:02:59
+[]
+
+Consulta SKUs nro: 242 Time:  01:03:05
+[]
+
+Consulta SKUs nro: 243 Time:  01:03:11
+[]
+
+Consulta SKUs nro: 244 Time:  01:03:17
+[]
+
+Consulta SKUs nro: 245 Time:  01:03:23
+[]
+
+Consulta SKUs nro: 246 Time:  01:03:29
+[]
+
+Consulta SKUs nro: 247 Time:  01:03:35
+[]
+
+Consulta SKUs nro: 248 Time:  01:03:41
+[]
+
+Consulta SKUs nro: 249 Time:  01:03:47
+[]
+
+Consulta SKUs nro: 250 Time:  01:03:53
+[]
+
+Consulta SKUs nro: 251 Time:  01:03:59
+[]
+
+Consulta SKUs nro: 252 Time:  01:04:05
+[]
+
+Consulta SKUs nro: 253 Time:  01:04:11
+[]
+
+Consulta SKUs nro: 254 Time:  01:04:17
+[]
+
+Consulta SKUs nro: 255 Time:  01:04:23
+[]
+
+Consulta SKUs nro: 256 Time:  01:04:29
+[]
+
+Consulta SKUs nro: 257 Time:  01:04:35
+[]
+
+Consulta SKUs nro: 258 Time:  01:04:41
+[]
+
+Consulta SKUs nro: 259 Time:  01:04:47
+[]
+
+Consulta SKUs nro: 260 Time:  01:04:53
+[]
+
+Consulta SKUs nro: 261 Time:  01:04:59
+[]
+
+Consulta SKUs nro: 262 Time:  01:05:05
+[]
+
+Consulta SKUs nro: 263 Time:  01:05:11
+[]
+
+Consulta SKUs nro: 264 Time:  01:05:17
+[]
+
+Consulta SKUs nro: 265 Time:  01:05:23
+[]
+
+Consulta SKUs nro: 266 Time:  01:05:28
+[]
+
+Consulta SKUs nro: 267 Time:  01:05:34
+[]
+
+Consulta SKUs nro: 268 Time:  01:05:40
+[]
+
+Consulta SKUs nro: 269 Time:  01:05:46
+[]
+
+Consulta SKUs nro: 270 Time:  01:05:52
+[]
+
+Consulta SKUs nro: 271 Time:  01:05:58
+[]
+
+Consulta SKUs nro: 272 Time:  01:06:04
+[]
+
+Consulta SKUs nro: 273 Time:  01:06:10
+[]
+
+Consulta SKUs nro: 274 Time:  01:06:16
+[]
+
+Consulta SKUs nro: 275 Time:  01:06:22
+[]
+
+Consulta SKUs nro: 276 Time:  01:06:28
+[]
+
+Consulta SKUs nro: 277 Time:  01:06:34
+[]
+
+Consulta SKUs nro: 278 Time:  01:06:40
+[]
+
+Consulta SKUs nro: 279 Time:  01:06:46
+[]
+
+Consulta SKUs nro: 280 Time:  01:06:52
+[]
+
+Consulta SKUs nro: 281 Time:  01:06:57
+[]
+
+Consulta SKUs nro: 282 Time:  01:07:03
+[]
+
+Consulta SKUs nro: 283 Time:  01:07:09
+[]
+
+Consulta SKUs nro: 284 Time:  01:07:15
+[]
+
+Consulta SKUs nro: 285 Time:  01:07:21
+[]
+
+Consulta SKUs nro: 286 Time:  01:07:27
+[]
+
+Consulta SKUs nro: 287 Time:  01:07:33
+[]
+
+Consulta SKUs nro: 288 Time:  01:07:39
+[]
+
+Consulta SKUs nro: 289 Time:  01:07:45
+[]
+
+Consulta SKUs nro: 290 Time:  01:07:51
+[]
+
+Consulta SKUs nro: 291 Time:  01:07:57
+[]
+
+Consulta SKUs nro: 292 Time:  01:08:03
+[]
+
+Consulta SKUs nro: 293 Time:  01:08:09
+[]
+
+Consulta SKUs nro: 294 Time:  01:08:15
+[]
+
+Consulta SKUs nro: 295 Time:  01:08:21
+[]
+
+Consulta SKUs nro: 296 Time:  01:08:26
+[]
+
+Consulta SKUs nro: 297 Time:  01:08:33
+[]
+
+Consulta SKUs nro: 298 Time:  01:08:39
+[]
+
+Consulta SKUs nro: 299 Time:  01:08:45
+[]
+
+Consulta SKUs nro: 300 Time:  01:08:51
+[]
+
+Consulta SKUs nro: 301 Time:  01:08:57
+[]
+
+Consulta SKUs nro: 302 Time:  01:09:03
+[]
+
+Consulta SKUs nro: 303 Time:  01:09:09
+[]
+
+Consulta SKUs nro: 304 Time:  01:09:15
+[]
+
+Consulta SKUs nro: 305 Time:  01:09:21
+[]
+
+Consulta SKUs nro: 306 Time:  01:09:27
+[]
+
+Consulta SKUs nro: 307 Time:  01:09:33
+[]
+
+Consulta SKUs nro: 308 Time:  01:09:39
+[]
+
+Consulta SKUs nro: 309 Time:  01:09:45
+[]
+
+Consulta SKUs nro: 310 Time:  01:09:51
+[]
+
+Consulta SKUs nro: 311 Time:  01:09:57
+[]
+
+Consulta SKUs nro: 312 Time:  01:10:03
+[]
+
+Consulta SKUs nro: 313 Time:  01:10:08
+[]
+
+Consulta SKUs nro: 314 Time:  01:10:14
+[]
+
+Consulta SKUs nro: 315 Time:  01:10:20
+[]
+
+Consulta SKUs nro: 316 Time:  01:10:26
+[]
+
+Consulta SKUs nro: 317 Time:  01:10:32
+[]
+
+Consulta SKUs nro: 318 Time:  01:10:38
+[]
+
+Consulta SKUs nro: 319 Time:  01:10:44
+[]
+
+Consulta SKUs nro: 320 Time:  01:10:50
+[]
+
+Consulta SKUs nro: 321 Time:  01:10:56
+[]
+
+Consulta SKUs nro: 322 Time:  01:11:02
+[]
+
+Consulta SKUs nro: 323 Time:  01:11:08
+[]
+
+Consulta SKUs nro: 324 Time:  01:11:14
+[]
+
+Consulta SKUs nro: 325 Time:  01:11:19
+[]
+
+Consulta SKUs nro: 326 Time:  01:11:25
+[]
+
+Consulta SKUs nro: 327 Time:  01:11:31
+[]
+
+Consulta SKUs nro: 328 Time:  01:11:37
+[]
+
+Consulta SKUs nro: 329 Time:  01:11:43
+[]
+
+Consulta SKUs nro: 330 Time:  01:11:49
+[]
+
+Consulta SKUs nro: 331 Time:  01:11:55
+[]
+
+Consulta SKUs nro: 332 Time:  01:12:01
+[]
+
+Consulta SKUs nro: 333 Time:  01:12:07
+[]
+
+Consulta SKUs nro: 334 Time:  01:12:13
+[]
+
+Consulta SKUs nro: 335 Time:  01:12:19
+[]
+
+Consulta SKUs nro: 336 Time:  01:12:25
+[]
+
+Consulta SKUs nro: 337 Time:  01:12:30
+[]
+
+Consulta SKUs nro: 338 Time:  01:12:36
+[]
+
+Consulta SKUs nro: 339 Time:  01:12:42
+[]
+
+Consulta SKUs nro: 340 Time:  01:12:48
+[]
+
+Consulta SKUs nro: 341 Time:  01:12:54
+[]
+
+Consulta SKUs nro: 342 Time:  01:13:00
+[]
+
+Consulta SKUs nro: 343 Time:  01:13:06
+[]
+
+Consulta SKUs nro: 344 Time:  01:13:12
+[]
+
+Consulta SKUs nro: 345 Time:  01:13:18
+[]
+
+Consulta SKUs nro: 346 Time:  01:13:24
+[]
+
+Consulta SKUs nro: 347 Time:  01:13:30
+[]
+
+Consulta SKUs nro: 348 Time:  01:13:36
+[]
+
+Consulta SKUs nro: 349 Time:  01:13:42
+[]
+
+Consulta SKUs nro: 350 Time:  01:13:48
+[]
+
+Consulta SKUs nro: 351 Time:  01:13:54
+[]
+
+Consulta SKUs nro: 352 Time:  01:14:00
+[]
+
+Consulta SKUs nro: 353 Time:  01:14:06
+[]
+
+Consulta SKUs nro: 354 Time:  01:14:12
+[]
+
+Consulta SKUs nro: 355 Time:  01:14:18
+[]
+
+Consulta SKUs nro: 356 Time:  01:14:24
+[]
+
+Consulta SKUs nro: 357 Time:  01:14:29
+[]
+
+Consulta SKUs nro: 358 Time:  01:14:35
+[]
+
+Consulta SKUs nro: 359 Time:  01:14:41
+[]
+
+Consulta SKUs nro: 360 Time:  01:14:47
+[]
+
+Consulta SKUs nro: 361 Time:  01:14:53
+[]
+
+Consulta SKUs nro: 362 Time:  01:14:59
+[]
+
+Consulta SKUs nro: 363 Time:  01:15:05
+[]
+
+Consulta SKUs nro: 364 Time:  01:15:11
+[]
+
+Consulta SKUs nro: 365 Time:  01:15:17
+[]
+
+Consulta SKUs nro: 366 Time:  01:15:23
+[]
+
+Consulta SKUs nro: 367 Time:  01:15:29
+[]
+
+Consulta SKUs nro: 368 Time:  01:15:34
+[]
+
+Consulta SKUs nro: 369 Time:  01:15:40
+[]
+
+Consulta SKUs nro: 370 Time:  01:15:46
+[]
+
+Consulta SKUs nro: 371 Time:  01:15:52
+[]
+
+Consulta SKUs nro: 372 Time:  01:15:58
+[]
+
+Consulta SKUs nro: 373 Time:  01:16:04
+[]
+
+Consulta SKUs nro: 374 Time:  01:16:10
+[]
+
+Consulta SKUs nro: 375 Time:  01:16:16
+[]
+
+Consulta SKUs nro: 376 Time:  01:16:22
+[]
+
+Consulta SKUs nro: 377 Time:  01:16:28
+[]
+
+Consulta SKUs nro: 378 Time:  01:16:34
+[]
+
+Consulta SKUs nro: 379 Time:  01:16:40
+[]
+
+Consulta SKUs nro: 380 Time:  01:16:46
+[]
+
+Consulta SKUs nro: 381 Time:  01:16:52
+[]
+
+Consulta SKUs nro: 382 Time:  01:16:58
+[]
+
+Consulta SKUs nro: 383 Time:  01:17:04
+[]
+
+Consulta SKUs nro: 384 Time:  01:17:10
+[]
+
+Consulta SKUs nro: 385 Time:  01:17:16
+[]
+
+Consulta SKUs nro: 386 Time:  01:17:22
+[]
+
+Consulta SKUs nro: 387 Time:  01:17:28
+[]
+
+Consulta SKUs nro: 388 Time:  01:17:33
+[]
+
+Consulta SKUs nro: 389 Time:  01:17:39
+[]
+
+Consulta SKUs nro: 390 Time:  01:17:45
+[]
+
+Consulta SKUs nro: 391 Time:  01:17:51
+[]
+
+Consulta SKUs nro: 392 Time:  01:17:57
+[]
+
+Consulta SKUs nro: 393 Time:  01:18:03
+[]
+
+Consulta SKUs nro: 394 Time:  01:18:09
+[]
+
+Consulta SKUs nro: 395 Time:  01:18:15
+[]
+
+Consulta SKUs nro: 396 Time:  01:18:21
+[]
+
+Consulta SKUs nro: 397 Time:  01:18:27
+[]
+
+Consulta SKUs nro: 398 Time:  01:18:33
+[]
+
+Consulta SKUs nro: 399 Time:  01:18:39
+[]
+
+Consulta SKUs nro: 400 Time:  01:18:45
+[]
+
+Consulta SKUs nro: 401 Time:  01:18:51
+[]
+
+Consulta SKUs nro: 402 Time:  01:18:57
+[]
+
+Consulta SKUs nro: 403 Time:  01:19:03
+[]
+
+Consulta SKUs nro: 404 Time:  01:19:09
+[]
+
+Consulta SKUs nro: 405 Time:  01:19:15
+[]
+
+Consulta SKUs nro: 406 Time:  01:19:21
+[]
+
+Consulta SKUs nro: 407 Time:  01:19:27
+[]
+
+Consulta SKUs nro: 408 Time:  01:19:33
+[]
+
+Consulta SKUs nro: 409 Time:  01:19:39
+[]
+
+Consulta SKUs nro: 410 Time:  01:19:45
+[]
+
+Consulta SKUs nro: 411 Time:  01:19:51
+[]
+
+Consulta SKUs nro: 412 Time:  01:19:57
+[]
+
+Consulta SKUs nro: 413 Time:  01:20:03
+[]
+
+Consulta SKUs nro: 414 Time:  01:20:09
+[]
+
+Consulta SKUs nro: 415 Time:  01:20:15
+[]
+
+Consulta SKUs nro: 416 Time:  01:20:21
+[]
+
+Consulta SKUs nro: 417 Time:  01:20:27
+[]
+
+Consulta SKUs nro: 418 Time:  01:20:32
+[]
+
+Consulta SKUs nro: 419 Time:  01:20:38
+[]
+
+Consulta SKUs nro: 420 Time:  01:20:45
+[]
+
+Consulta SKUs nro: 421 Time:  01:20:50
+[]
+
+Consulta SKUs nro: 422 Time:  01:20:56
+[]
+
+Consulta SKUs nro: 423 Time:  01:21:02
+[]
+
+Consulta SKUs nro: 424 Time:  01:21:08
+[]
+
+Consulta SKUs nro: 425 Time:  01:21:14
+[]
+
+Consulta SKUs nro: 426 Time:  01:21:20
+[]
+
+Consulta SKUs nro: 427 Time:  01:21:26
+[]
+
+Consulta SKUs nro: 428 Time:  01:21:32
+[]
+
+Consulta SKUs nro: 429 Time:  01:21:38
+[]
+
+Consulta SKUs nro: 430 Time:  01:21:44
+[]
+
+Consulta SKUs nro: 431 Time:  01:21:50
+[]
+
+Consulta SKUs nro: 432 Time:  01:21:56
+[]
+
+Consulta SKUs nro: 433 Time:  01:22:02
+[]
+
+Consulta SKUs nro: 434 Time:  01:22:08
+[]
+
+Consulta SKUs nro: 435 Time:  01:22:13
+[]
+
+Consulta SKUs nro: 436 Time:  01:22:19
+[]
+
+Consulta SKUs nro: 437 Time:  01:22:25
+[]
+
+Consulta SKUs nro: 438 Time:  01:22:31
+[]
+
+Consulta SKUs nro: 439 Time:  01:22:37
+[]
+
+Consulta SKUs nro: 440 Time:  01:22:43
+[]
+
+Consulta SKUs nro: 441 Time:  01:22:49
+[]
+
+Consulta SKUs nro: 442 Time:  01:22:55
+[]
+
+Consulta SKUs nro: 443 Time:  01:23:01
+[]
+
+Consulta SKUs nro: 444 Time:  01:23:07
+[]
+
+Consulta SKUs nro: 445 Time:  01:23:13
+[]
+
+Consulta SKUs nro: 446 Time:  01:23:18
+[]
+
+Consulta SKUs nro: 447 Time:  01:23:24
+[]
+
+Consulta SKUs nro: 448 Time:  01:23:30
+[]
+
+Consulta SKUs nro: 449 Time:  01:23:36
+[]
+
+Consulta SKUs nro: 450 Time:  01:23:42
+[]
+
+Consulta SKUs nro: 451 Time:  01:23:48
+[]
+
+Consulta SKUs nro: 452 Time:  01:23:54
+[]
+
+Consulta SKUs nro: 453 Time:  01:24:00
+[]
+
+Consulta SKUs nro: 454 Time:  01:24:06
+[]
+
+Consulta SKUs nro: 455 Time:  01:24:12
+[]
+
+Consulta SKUs nro: 456 Time:  01:24:18
+[]
+
+Consulta SKUs nro: 457 Time:  01:24:24
+[]
+
+Consulta SKUs nro: 458 Time:  01:24:30
+[]
+
+Consulta SKUs nro: 459 Time:  01:24:36
+[]
+
+Consulta SKUs nro: 460 Time:  01:24:42
+[]
+
+Consulta SKUs nro: 461 Time:  01:24:48
+[]
+
+Consulta SKUs nro: 462 Time:  01:24:54
+[]
+
+Consulta SKUs nro: 463 Time:  01:25:00
+[]
+
+Consulta SKUs nro: 464 Time:  01:25:06
+[]
+
+Consulta SKUs nro: 465 Time:  01:25:12
+[]
+
+Consulta SKUs nro: 466 Time:  01:25:18
+[]
+
+Consulta SKUs nro: 467 Time:  01:25:24
+[]
+
+Consulta SKUs nro: 468 Time:  01:25:30
+[]
+
+Consulta SKUs nro: 469 Time:  01:25:35
+[]
+
+Consulta SKUs nro: 470 Time:  01:25:41
+[]
+
+Consulta SKUs nro: 471 Time:  01:25:47
+[]
+
+Consulta SKUs nro: 472 Time:  01:25:53
+[]
+
+Consulta SKUs nro: 473 Time:  01:25:59
+[]
+
+Consulta SKUs nro: 474 Time:  01:26:05
+[]
+
+Consulta SKUs nro: 475 Time:  01:26:11
+[]
+
+Consulta SKUs nro: 476 Time:  01:26:17
+[]
+
+Consulta SKUs nro: 477 Time:  01:26:23
+[]
+
+Consulta SKUs nro: 478 Time:  01:26:29
+[]
+
+Consulta SKUs nro: 479 Time:  01:26:35
+[]
+
+Consulta SKUs nro: 480 Time:  01:26:41
+[]
+
+Consulta SKUs nro: 481 Time:  01:26:47
+[]
+
+Consulta SKUs nro: 482 Time:  01:26:53
+[]
+
+Consulta SKUs nro: 483 Time:  01:26:59
+[]
+
+Consulta SKUs nro: 484 Time:  01:27:05
+[]
+
+Consulta SKUs nro: 485 Time:  01:27:11
+[]
+
+Consulta SKUs nro: 486 Time:  01:27:17
+[]
+
+Consulta SKUs nro: 487 Time:  01:27:23
+[]
+
+Consulta SKUs nro: 488 Time:  01:27:29
+[]
+
+Consulta SKUs nro: 489 Time:  01:27:35
+[]
+
+Consulta SKUs nro: 490 Time:  01:27:40
+[]
+
+Consulta SKUs nro: 491 Time:  01:27:46
+[]
+
+Consulta SKUs nro: 492 Time:  01:27:52
+[]
+
+Consulta SKUs nro: 493 Time:  01:27:58
+[]
+
+Consulta SKUs nro: 494 Time:  01:28:04
+[]
+
+Consulta SKUs nro: 495 Time:  01:28:10
+[]
+
+Consulta SKUs nro: 496 Time:  01:28:16
+[]
+
+Consulta SKUs nro: 497 Time:  01:28:22
+[]
+
+Consulta SKUs nro: 498 Time:  01:28:28
+[]
+
+Consulta SKUs nro: 499 Time:  01:28:34
+[]
+
+Consulta SKUs nro: 500 Time:  01:28:40
+[]
+
+Consulta SKUs nro: 501 Time:  01:28:46
+[]
+
+Consulta SKUs nro: 502 Time:  01:28:52
+[]
+
+Consulta SKUs nro: 503 Time:  01:28:58
+[]
+
+Consulta SKUs nro: 504 Time:  01:29:04
+[]
+
+Consulta SKUs nro: 505 Time:  01:29:10
+[]
+
+Consulta SKUs nro: 506 Time:  01:29:16
+[]
+
+Consulta SKUs nro: 507 Time:  01:29:22
+[]
+
+Consulta SKUs nro: 508 Time:  01:29:28
+[]
+
+Consulta SKUs nro: 509 Time:  01:29:33
+[]
+
+Consulta SKUs nro: 510 Time:  01:29:39
+[]
+
+Consulta SKUs nro: 511 Time:  01:29:45
+[]
+
+Consulta SKUs nro: 512 Time:  01:29:51
+[]
+
+Consulta SKUs nro: 513 Time:  01:29:57
+[]
+
+Consulta SKUs nro: 514 Time:  01:30:03
+[]
+
+Consulta SKUs nro: 515 Time:  01:30:09
+[]
+
+Consulta SKUs nro: 516 Time:  01:30:15
+[]
+
+Consulta SKUs nro: 517 Time:  01:30:21
+[]
+
+Consulta SKUs nro: 518 Time:  01:30:27
+[]
+
+Consulta SKUs nro: 519 Time:  01:30:33
+[]
+
+Consulta SKUs nro: 520 Time:  01:30:39
+[]
+
+Consulta SKUs nro: 521 Time:  01:30:45
+[]
+
+Consulta SKUs nro: 522 Time:  01:30:51
+[]
+
+Consulta SKUs nro: 523 Time:  01:30:57
+[]
+
+Consulta SKUs nro: 524 Time:  01:31:03
+[]
+
+Consulta SKUs nro: 525 Time:  01:31:09
+[]
+
+Consulta SKUs nro: 526 Time:  01:31:15
+[]
+
+Consulta SKUs nro: 527 Time:  01:31:20
+[]
+
+Consulta SKUs nro: 528 Time:  01:31:26
+[]
+
+Consulta SKUs nro: 529 Time:  01:31:32
+[]
+
+Consulta SKUs nro: 530 Time:  01:31:38
+[]
+
+Consulta SKUs nro: 531 Time:  01:31:44
+[]
+
+Consulta SKUs nro: 532 Time:  01:31:50
+[]
+
+Consulta SKUs nro: 533 Time:  01:31:56
+[]
+
+Consulta SKUs nro: 534 Time:  01:32:02
+[]
+
+Consulta SKUs nro: 535 Time:  01:32:08
+[]
+
+Consulta SKUs nro: 536 Time:  01:32:14
+[]
+
+Consulta SKUs nro: 537 Time:  01:32:20
+[]
+
+Consulta SKUs nro: 538 Time:  01:32:26
+[]
+
+Consulta SKUs nro: 539 Time:  01:32:32
+[]
+
+Consulta SKUs nro: 540 Time:  01:32:38
+[]
+
+Consulta SKUs nro: 541 Time:  01:32:44
+[]
+
+Consulta SKUs nro: 542 Time:  01:32:50
+[]
+
+Consulta SKUs nro: 543 Time:  01:32:56
+[]
+
+Consulta SKUs nro: 544 Time:  01:33:02
+[]
+
+Consulta SKUs nro: 545 Time:  01:33:08
+[]
+
+Consulta SKUs nro: 546 Time:  01:33:14
+[]
+
+Consulta SKUs nro: 547 Time:  01:33:20
+[]
+
+Consulta SKUs nro: 548 Time:  01:33:26
+[]
+
+Consulta SKUs nro: 549 Time:  01:33:32
+[]
+
+Consulta SKUs nro: 550 Time:  01:33:38
+[]
+
+Consulta SKUs nro: 551 Time:  01:33:44
+[]
+
+Consulta SKUs nro: 552 Time:  01:33:49
+[]
+
+Consulta SKUs nro: 553 Time:  01:33:55
+[]
+
+Consulta SKUs nro: 554 Time:  01:34:01
+[]
+
+Consulta SKUs nro: 555 Time:  01:34:07
+[]
+
+Consulta SKUs nro: 556 Time:  01:34:13
+[]
+
+Consulta SKUs nro: 557 Time:  01:34:19
+[]
+
+Consulta SKUs nro: 558 Time:  01:34:25
+[]
+
+Consulta SKUs nro: 559 Time:  01:34:31
+[]
+
+Consulta SKUs nro: 560 Time:  01:34:37
+[]
+
+Consulta SKUs nro: 561 Time:  01:34:43
+[]
+
+Consulta SKUs nro: 562 Time:  01:34:49
+[]
+
+Consulta SKUs nro: 563 Time:  01:34:55
+[]
+
+Consulta SKUs nro: 564 Time:  01:35:01
+[]
+
+Consulta SKUs nro: 565 Time:  01:35:07
+[]
+
+Consulta SKUs nro: 566 Time:  01:35:13
+[]
+
+Consulta SKUs nro: 567 Time:  01:35:19
+[]
+
+Consulta SKUs nro: 568 Time:  01:35:24
+[]
+
+Consulta SKUs nro: 569 Time:  01:35:30
+[]
+
+Consulta SKUs nro: 570 Time:  01:35:36
+[]
+
+Consulta SKUs nro: 571 Time:  01:35:42
+[]
+
+Consulta SKUs nro: 572 Time:  01:35:48
+[]
+
+Consulta SKUs nro: 573 Time:  01:35:54
+[]
+
+Consulta SKUs nro: 574 Time:  01:36:00
+[]
+
+Consulta SKUs nro: 575 Time:  01:36:06
+[]
+
+Consulta SKUs nro: 576 Time:  01:36:12
+[]
+
+Consulta SKUs nro: 577 Time:  01:36:17
+[]
+
+Consulta SKUs nro: 578 Time:  01:36:23
+[]
+
+Consulta SKUs nro: 579 Time:  01:36:29
+[]
+
+Consulta SKUs nro: 580 Time:  01:36:35
+[]
+
+Consulta SKUs nro: 581 Time:  01:36:41
+[]
+
+Consulta SKUs nro: 582 Time:  01:36:47
+[]
+
+Consulta SKUs nro: 583 Time:  01:36:53
+[]
+
+Consulta SKUs nro: 584 Time:  01:36:58
+[]
+
+Consulta SKUs nro: 585 Time:  01:37:04
+[]
+
+Consulta SKUs nro: 586 Time:  01:37:10
+[]
+
+Consulta SKUs nro: 587 Time:  01:37:16
+[]
+
+Consulta SKUs nro: 588 Time:  01:37:22
+[]
+
+Consulta SKUs nro: 589 Time:  01:37:28
+[]
+
+Consulta SKUs nro: 590 Time:  01:37:34
+[]
+
+Consulta SKUs nro: 591 Time:  01:37:40
+[]
+
+Consulta SKUs nro: 592 Time:  01:37:46
+[]
+
+Consulta SKUs nro: 593 Time:  01:37:52
+[]
+
+Consulta SKUs nro: 594 Time:  01:37:57
+[]
+
+Consulta SKUs nro: 595 Time:  01:38:03
+[]
+
+Consulta SKUs nro: 596 Time:  01:38:09
+[]
+
+Consulta SKUs nro: 597 Time:  01:38:15
+[]
+
+Consulta SKUs nro: 598 Time:  01:38:21
+[]
+
+Consulta SKUs nro: 599 Time:  01:38:27
+[]
+
+Consulta SKUs nro: 600 Time:  01:38:33
+[]
+
+Consulta SKUs nro: 601 Time:  01:38:39
+[]
+
+Consulta SKUs nro: 602 Time:  01:38:45
+[]
+
+Consulta SKUs nro: 603 Time:  01:38:56
+[]
+
+Consulta SKUs nro: 604 Time:  01:39:02
+[]
+
+Consulta SKUs nro: 605 Time:  01:39:08
+[]
+
+Consulta SKUs nro: 606 Time:  01:39:13
+[]
+
+Consulta SKUs nro: 607 Time:  01:39:19
+[]
+
+Consulta SKUs nro: 608 Time:  01:39:25
+[]
+
+Consulta SKUs nro: 609 Time:  01:39:31
+[]
+
+Consulta SKUs nro: 610 Time:  01:39:37
+[]
+
+Consulta SKUs nro: 611 Time:  01:39:43
+[]
+
+Consulta SKUs nro: 612 Time:  01:39:49
+[]
+
+Consulta SKUs nro: 613 Time:  01:39:55
+[]
+
+Consulta SKUs nro: 614 Time:  01:40:01
+[]
+
+Consulta SKUs nro: 615 Time:  01:40:07
+[]
+
+Consulta SKUs nro: 616 Time:  01:40:13
+[]
+
+Consulta SKUs nro: 617 Time:  01:40:19
+[]
+
+Consulta SKUs nro: 618 Time:  01:40:25
+[]
+
+Consulta SKUs nro: 619 Time:  01:40:31
+[]
+
+Consulta SKUs nro: 620 Time:  01:40:36
+[]
+
+Consulta SKUs nro: 621 Time:  01:40:42
+[]
+
+Consulta SKUs nro: 622 Time:  01:40:48
+[]
+
+Consulta SKUs nro: 623 Time:  01:40:54
+[]
+
+Consulta SKUs nro: 624 Time:  01:41:00
+[]
+
+Consulta SKUs nro: 625 Time:  01:41:06
+[]
+
+Consulta SKUs nro: 626 Time:  01:41:12
+[]
+
+Consulta SKUs nro: 627 Time:  01:41:18
+[]
+
+Consulta SKUs nro: 628 Time:  01:41:24
+[]
+
+Consulta SKUs nro: 629 Time:  01:41:29
+[]
+
+Consulta SKUs nro: 630 Time:  01:41:35
+[]
+
+Consulta SKUs nro: 631 Time:  01:41:41
+[]
+
+Consulta SKUs nro: 632 Time:  01:41:47
+[]
+
+Consulta SKUs nro: 633 Time:  01:41:53
+[]
+
+Consulta SKUs nro: 634 Time:  01:41:59
+[]
+
+Consulta SKUs nro: 635 Time:  01:42:05
+[]
+
+Consulta SKUs nro: 636 Time:  01:42:11
+[]
+
+Consulta SKUs nro: 637 Time:  01:42:17
+[]
+
+Consulta SKUs nro: 638 Time:  01:42:23
+[]
+
+Consulta SKUs nro: 639 Time:  01:42:29
+[]
+
+Consulta SKUs nro: 640 Time:  01:42:35
+[]
+
+Consulta SKUs nro: 641 Time:  01:42:41
+[]
+
+Consulta SKUs nro: 642 Time:  01:42:47
+[]
+
+Consulta SKUs nro: 643 Time:  01:42:52
+[]
+
+Consulta SKUs nro: 644 Time:  01:42:58
+[]
+
+Consulta SKUs nro: 645 Time:  01:43:04
+[]
+
+Consulta SKUs nro: 646 Time:  01:43:10
+[]
+
+Consulta SKUs nro: 647 Time:  01:43:16
+[]
+
+Consulta SKUs nro: 648 Time:  01:43:22
+[]
+
+Consulta SKUs nro: 649 Time:  01:43:28
+[]
+
+Consulta SKUs nro: 650 Time:  01:43:34
+[]
+
+Consulta SKUs nro: 651 Time:  01:43:40
+[]
+
+Consulta SKUs nro: 652 Time:  01:43:45
+[]
+
+Consulta SKUs nro: 653 Time:  01:43:51
+[]
+
+Consulta SKUs nro: 654 Time:  01:44:00
+[]
+
+Consulta SKUs nro: 655 Time:  01:44:05
+[]
+
+Consulta SKUs nro: 656 Time:  01:44:11
+[]
+
+Consulta SKUs nro: 657 Time:  01:44:17
+[]
+
+Consulta SKUs nro: 658 Time:  01:44:23
+[]
+
+Consulta SKUs nro: 659 Time:  01:44:29
+[]
+
+Consulta SKUs nro: 660 Time:  01:44:35
+[]
+
+Consulta SKUs nro: 661 Time:  01:44:41
+[]
+
+Consulta SKUs nro: 662 Time:  01:44:47
+[]
+
+Consulta SKUs nro: 663 Time:  01:44:53
+[]
+
+Consulta SKUs nro: 664 Time:  01:44:59
+[]
+
+Consulta SKUs nro: 665 Time:  01:45:05
+[]
+
+Consulta SKUs nro: 666 Time:  01:45:10
+[]
+
+Consulta SKUs nro: 667 Time:  01:45:16
+[]
+
+Consulta SKUs nro: 668 Time:  01:45:22
+[]
+
+Consulta SKUs nro: 669 Time:  01:45:28
+[]
+
+Consulta SKUs nro: 670 Time:  01:45:34
+[]
+
+Consulta SKUs nro: 671 Time:  01:45:40
+[]
+
+Consulta SKUs nro: 672 Time:  01:45:46
+[]
+
+Consulta SKUs nro: 673 Time:  01:45:52
+[]
+
+Consulta SKUs nro: 674 Time:  01:45:57
+[]
+
+Consulta SKUs nro: 675 Time:  01:46:03
+[]
+
+Consulta SKUs nro: 676 Time:  01:46:09
+[]
+
+Consulta SKUs nro: 677 Time:  01:46:15
+[]
+
+Consulta SKUs nro: 678 Time:  01:46:21
+[]
+
+Consulta SKUs nro: 679 Time:  01:46:27
+[]
+
+Consulta SKUs nro: 680 Time:  01:46:33
+[]
+
+Consulta SKUs nro: 681 Time:  01:46:39
+[]
+
+Consulta SKUs nro: 682 Time:  01:46:45
+[]
+
+Consulta SKUs nro: 683 Time:  01:46:51
+[]
+
+Consulta SKUs nro: 684 Time:  01:46:57
+[]
+
+Consulta SKUs nro: 685 Time:  01:47:03
+[]
+
+Consulta SKUs nro: 686 Time:  01:47:09
+[]
+
+Consulta SKUs nro: 687 Time:  01:47:15
+[]
+
+Consulta SKUs nro: 688 Time:  01:47:21
+[]
+
+Consulta SKUs nro: 689 Time:  01:47:26
+[]
+
+Consulta SKUs nro: 690 Time:  01:47:32
+[]
+
+Consulta SKUs nro: 691 Time:  01:47:38
+[]
+
+Consulta SKUs nro: 692 Time:  01:47:44
+[]
+
+Consulta SKUs nro: 693 Time:  01:47:50
+[]
+
+Consulta SKUs nro: 694 Time:  01:47:56
+[]
+
+Consulta SKUs nro: 695 Time:  01:48:02
+[]
+
+Consulta SKUs nro: 696 Time:  01:48:08
+[]
+
+Consulta SKUs nro: 697 Time:  01:48:14
+[]
+
+Consulta SKUs nro: 698 Time:  01:48:20
+[]
+
+Consulta SKUs nro: 699 Time:  01:48:26
+[]
+
+Consulta SKUs nro: 700 Time:  01:48:32
+[]
+
+Consulta SKUs nro: 701 Time:  01:48:38
+[]
+
+Consulta SKUs nro: 702 Time:  01:48:44
+[]
+
+Consulta SKUs nro: 703 Time:  01:48:50
+[]
+
+Consulta SKUs nro: 704 Time:  01:48:56
+[]
+
+Consulta SKUs nro: 705 Time:  01:49:01
+[]
+
+Consulta SKUs nro: 706 Time:  01:49:07
+[]
+
+Consulta SKUs nro: 707 Time:  01:49:13
+[]
+
+Consulta SKUs nro: 708 Time:  01:49:19
+[]
+
+Consulta SKUs nro: 709 Time:  01:49:25
+[]
+
+Consulta SKUs nro: 710 Time:  01:49:31
+[]
+
+Consulta SKUs nro: 711 Time:  01:49:37
+[]
+
+Consulta SKUs nro: 712 Time:  01:49:43
+[]
+
+Consulta SKUs nro: 713 Time:  01:49:49
+[]
+
+Consulta SKUs nro: 714 Time:  01:49:55
+[]
+
+Consulta SKUs nro: 715 Time:  01:50:00
+[]
+
+Consulta SKUs nro: 716 Time:  01:50:06
+[]
+
+Consulta SKUs nro: 717 Time:  01:50:12
+[]
+
+Consulta SKUs nro: 718 Time:  01:50:18
+[]
+
+Consulta SKUs nro: 719 Time:  01:50:24
+[]
+
+Consulta SKUs nro: 720 Time:  01:50:30
+[]
+
+Consulta SKUs nro: 721 Time:  01:50:36
+[]
+
+Consulta SKUs nro: 722 Time:  01:50:42
+[]
+
+Consulta SKUs nro: 723 Time:  01:50:48
+[]
+
+Consulta SKUs nro: 724 Time:  01:50:54
+[]
+
+Consulta SKUs nro: 725 Time:  01:50:59
+[]
+
+Consulta SKUs nro: 726 Time:  01:51:05
+[]
+
+Consulta SKUs nro: 727 Time:  01:51:11
+[]
+
+Consulta SKUs nro: 728 Time:  01:51:17
+[]
+
+Consulta SKUs nro: 729 Time:  01:51:23
+[]
+
+Consulta SKUs nro: 730 Time:  01:51:29
+[]
+
+Consulta SKUs nro: 731 Time:  01:51:35
+[]
+
+Consulta SKUs nro: 732 Time:  01:51:41
+[]
+
+Consulta SKUs nro: 733 Time:  01:51:47
+[]
+
+Consulta SKUs nro: 734 Time:  01:51:53
+[]
+
+Consulta SKUs nro: 735 Time:  01:51:59
+[]
+
+Consulta SKUs nro: 736 Time:  01:52:05
+[]
+
+Consulta SKUs nro: 737 Time:  01:52:10
+[]
+
+Consulta SKUs nro: 738 Time:  01:52:16
+[]
+
+Consulta SKUs nro: 739 Time:  01:52:22
+[]
+
+Consulta SKUs nro: 740 Time:  01:52:28
+[]
+
+Consulta SKUs nro: 741 Time:  01:52:34
+[]
+
+Consulta SKUs nro: 742 Time:  01:52:40
+[]
+
+Consulta SKUs nro: 743 Time:  01:52:46
+[]
+
+Consulta SKUs nro: 744 Time:  01:52:52
+[]
+
+Consulta SKUs nro: 745 Time:  01:52:58
+[]
+
+Consulta SKUs nro: 746 Time:  01:53:04
+[]
+
+Consulta SKUs nro: 747 Time:  01:53:10
+[]
+
+Consulta SKUs nro: 748 Time:  01:53:16
+[]
+
+Consulta SKUs nro: 749 Time:  01:53:21
+[]
+
+Consulta SKUs nro: 750 Time:  01:53:27
+[]
+
+Consulta SKUs nro: 751 Time:  01:53:33
+[]
+
+Consulta SKUs nro: 752 Time:  01:53:39
+[]
+
+Consulta SKUs nro: 753 Time:  01:53:45
+[]
+
+Consulta SKUs nro: 754 Time:  01:53:51
+[]
+
+Consulta SKUs nro: 755 Time:  01:53:57
+[]
+
+Consulta SKUs nro: 756 Time:  01:54:03
+[]
+
+Consulta SKUs nro: 757 Time:  01:54:09
+[]
+
+Consulta SKUs nro: 758 Time:  01:54:17
+[]
+
+Consulta SKUs nro: 759 Time:  01:54:23
+[]
+
+Consulta SKUs nro: 760 Time:  01:54:29
+[]
+
+Consulta SKUs nro: 761 Time:  01:54:35
+[]
+
+Consulta SKUs nro: 762 Time:  01:54:41
+[]
+
+Consulta SKUs nro: 763 Time:  01:54:47
+[]
+
+Consulta SKUs nro: 764 Time:  01:54:53
+[]
+
+Consulta SKUs nro: 765 Time:  01:54:58
+[]
+
+Consulta SKUs nro: 766 Time:  01:55:04
+[]
+
+Consulta SKUs nro: 767 Time:  01:55:10
+[]
+
+Consulta SKUs nro: 768 Time:  01:55:16
+[]
+
+Consulta SKUs nro: 769 Time:  01:55:22
+[]
+
+Consulta SKUs nro: 770 Time:  01:55:28
+[]
+
+Consulta SKUs nro: 771 Time:  01:55:34
+[]
+
+Consulta SKUs nro: 772 Time:  01:55:40
+[]
+
+Consulta SKUs nro: 773 Time:  01:55:46
+[]
+
+Consulta SKUs nro: 774 Time:  01:55:51
+[]
+
+Consulta SKUs nro: 775 Time:  01:55:57
+[]
+
+Consulta SKUs nro: 776 Time:  01:56:03
+[]
+
+Consulta SKUs nro: 777 Time:  01:56:09
+[]
+
+Consulta SKUs nro: 778 Time:  01:56:15
+[]
+
+Consulta SKUs nro: 779 Time:  01:56:21
+[]
+
+Consulta SKUs nro: 780 Time:  01:56:27
+[]
+
+Consulta SKUs nro: 781 Time:  01:56:33
+[]
+
+Consulta SKUs nro: 782 Time:  01:56:39
+[]
+
+Consulta SKUs nro: 783 Time:  01:56:45
+[]
+
+Consulta SKUs nro: 784 Time:  01:56:51
+[]
+
+Consulta SKUs nro: 785 Time:  01:56:57
+[]
+
+Consulta SKUs nro: 786 Time:  01:57:02
+[]
+
+Consulta SKUs nro: 787 Time:  01:57:08
+[]
+
+Consulta SKUs nro: 788 Time:  01:57:14
+[]
+
+Consulta SKUs nro: 789 Time:  01:57:20
+[]
+
+Consulta SKUs nro: 790 Time:  01:57:26
+[]
+
+Consulta SKUs nro: 791 Time:  01:57:32
+[]
+
+Consulta SKUs nro: 792 Time:  01:57:38
+[]
+
+Consulta SKUs nro: 793 Time:  01:57:44
+[]
+
+Consulta SKUs nro: 794 Time:  01:57:50
+[]
+
+Consulta SKUs nro: 795 Time:  01:57:56
+[]
+
+Consulta SKUs nro: 796 Time:  01:58:01
+[]
+
+Consulta SKUs nro: 797 Time:  01:58:07
+[]
+
+Consulta SKUs nro: 798 Time:  01:58:13
+[]
+
+Consulta SKUs nro: 799 Time:  01:58:19
+[]
+
+Consulta SKUs nro: 800 Time:  01:58:25
+[]
+
+Consulta SKUs nro: 801 Time:  01:58:31
+[]
+
+Consulta SKUs nro: 802 Time:  01:58:37
+[]
+
+Consulta SKUs nro: 803 Time:  01:58:43
+[]
+
+Consulta SKUs nro: 804 Time:  01:58:49
+[]
+
+Consulta SKUs nro: 805 Time:  01:58:55
+[]
+
+Consulta SKUs nro: 806 Time:  01:59:01
+[]
+
+Consulta SKUs nro: 807 Time:  01:59:07
+[]
+
+Consulta SKUs nro: 808 Time:  01:59:12
+[]
+
+Consulta SKUs nro: 809 Time:  01:59:37
+[]
+
+Consulta SKUs nro: 810 Time:  01:59:43
+[]
+
+Consulta SKUs nro: 811 Time:  01:59:49
+[]
+
+Consulta SKUs nro: 812 Time:  01:59:55
+[]
+
+Consulta SKUs nro: 813 Time:  02:00:01
+[]
+
+Consulta SKUs nro: 814 Time:  02:00:07
+[]
+
+Consulta SKUs nro: 815 Time:  02:00:12
+[]
+
+Consulta SKUs nro: 816 Time:  02:00:18
+[]
+
+Consulta SKUs nro: 817 Time:  02:00:24
+[]
+
+Consulta SKUs nro: 818 Time:  02:00:30
+[]
+
+Consulta SKUs nro: 819 Time:  02:00:36
+[]
+
+Consulta SKUs nro: 820 Time:  02:00:42
+[]
+
+Consulta SKUs nro: 821 Time:  02:00:48
+[]
+
+Consulta SKUs nro: 822 Time:  02:00:54
+[]
+
+Consulta SKUs nro: 823 Time:  02:01:00
+[]
+
+Consulta SKUs nro: 824 Time:  02:01:06
+[]
+
+Consulta SKUs nro: 825 Time:  02:01:12
+[]
+
+Consulta SKUs nro: 826 Time:  02:01:18
+[]
+
+Consulta SKUs nro: 827 Time:  02:01:24
+[]
+
+Consulta SKUs nro: 828 Time:  02:01:30
+[]
+
+Consulta SKUs nro: 829 Time:  02:01:36
+[]
+
+Consulta SKUs nro: 830 Time:  02:01:42
+[]
+
+Consulta SKUs nro: 831 Time:  02:01:48
+[]
+
+Consulta SKUs nro: 832 Time:  02:01:54
+[]
+
+Consulta SKUs nro: 833 Time:  02:02:00
+[]
+
+Consulta SKUs nro: 834 Time:  02:02:06
 []
 

@@ -9,7 +9,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 client.login(token);
 
 client.on('ready', () => {
-	console.log("BOT nike iniciado");
+	console.log("Nike iniciado");
 	main();
 });
 

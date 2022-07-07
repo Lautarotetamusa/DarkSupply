@@ -1,6 +1,6 @@
 {
-  "test_token": "COMPLETE TEST TOKEN(not necesary)",
-  "token": "COMPLETE TOKEN"",
+  "test_token": "OTU0Mzk5MzY5NzgyNzg4MTM2.YjSjrQ.WOFP874vFUNqL5q5zzSQ0oft5uU",
+  "token": "OTM0MTM2MDQ0MzM5NzUzMDEw.Yerr_A.12XrB4N3unLw1nnmm1kdEdMiLOo",
   "serverIDS": [
   	{
   		"ID": "800353933218414592",
@@ -29,7 +29,7 @@
   "delay": {
     "nike": 30,
     "snkrs": 30,
-    "skus": 15,
+    "skus": 5,
     "bold": 30
   }
 }
