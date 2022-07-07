@@ -14,7 +14,11 @@ function createEmbed(product, monitor){
 			description += "  -  **[QTY: "+ i["stock"] +"]**\n";
     }
 	});
-	description += ""
+	description += "";
+
+	//console.log(product);
+	//console.log(typeof(product["name"]));
+	//console.log(typeof(String(product["name"])));
 
 	var embed = new MessageEmbed()
   .setURL(product["url"])
